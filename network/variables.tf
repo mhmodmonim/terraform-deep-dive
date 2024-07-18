@@ -14,6 +14,13 @@ variable "prefix" {
   default     = "globo-dev"
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(Required) the billing code for network resources"
+
+
+}
+
 
 variable "environment" {
   type        = string
