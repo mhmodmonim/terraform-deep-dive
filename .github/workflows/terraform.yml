@@ -41,5 +41,5 @@ jobs:
     - name: Terraform Validate
       id: validate
       if: (success() || failure())
-      run: terraform validat:Le
+      run: terraform validate
 
