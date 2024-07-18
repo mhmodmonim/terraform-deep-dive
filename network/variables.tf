@@ -15,10 +15,10 @@ variable "prefix" {
 }
 
 variable "billing_code" {
-  type = string
+  type        = string
   description = "(Required) the billing code for network resources"
-  
-  
+
+
 }
 
 
